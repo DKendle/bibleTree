@@ -2,7 +2,7 @@
 //Fx toggles selected header color
 function clicked(){
     let headerColor = document.getElementById("revelation-start")
-
+    
     if(headerColor.style.backgroundColor !== "red"){
         headerColor.style.backgroundColor = "red"
         return headerColor
@@ -13,3 +13,8 @@ function clicked(){
 
     
 }
+
+
+
+//To-Do's
+//1. Add dynamic id's to function to search different headers

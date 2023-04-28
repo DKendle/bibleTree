@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <script src="index.js"></script>
-    <title>Document</title>
+    <script>
+    function newPage(){
+        //let pageRedirect = document.getElementById("genesis-btn")
+        location.href = "pages/genesis."
+    }</script>
+    
+    <title>Bible Tree </title>
+    <link rel="icon" type="image/ico" href="/images/tree.png">
 </head>
 <body>
     <h1>Bible Tree</h1>
     <div class="navbar">
-        <a href="#genesis-start" onclick="clicked(this)">Genesis</a>
+        
+        <button id="genesis-btn" onclick="newPage()">Genesis</button>
+
+
         <a href="#exodus-start" onclick="clicked()">Exodus</a>
         <a href="#leviticus-start" onclick="clicked()" >Leviticus</a>
         <a href="#numbers-start" onclick="clicked()">Numbers</a>
